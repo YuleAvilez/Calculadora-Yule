@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import "./App.css";
-import stranger from "./assets/img/stranger.jpg"
 const App = () => {
   const [result, setResult] = useState("")
 
@@ -23,7 +22,6 @@ const App = () => {
       }
       
    }
-   <div img src="stranger.jpg" type="image"></div>
   return (
     <div className="container">
       <from>
